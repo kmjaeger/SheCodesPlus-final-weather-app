@@ -9,11 +9,11 @@
     max-width: 100px;
  }
 
-.WeatherInfo {
+.weatherInfo {
     margin-top: 20px;
 }
 
-.WeatherInfo .temperature-container {
+.weatherInfo.temperature-container {
     align-items: center;
     margin-top: 30px;
 }
@@ -48,6 +48,13 @@
     top: -34px;
 }
 
+footer {
+    color: rgba(39,33,66,.4);
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 40px;
+    text-align: center;
+}
 .row>* {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
